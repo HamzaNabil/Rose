@@ -1,0 +1,551 @@
+@charset "utf-8";
+/* CSS Document */ /* from 951 to 542 */
+ 
+/************************************ All    ***************************************/
+
+*,*:after,*:before
+{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{margin:10px;  }
+/************************************* Header *************************************/
+
+section.header
+{
+    width:100%;
+    height: 650px;
+    background: url(../images/holiday2013_front.jpg) center center fixed ;
+    margin-bottom: 30px;
+    
+}
+
+section.header div.head{padding-top: 30px;display: flex;}
+ 
+section.header div.head div.logo{ width:20%;float: left;}
+
+section.header div.head div.logo:hover
+{
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);   
+}
+
+section.header div.head nav{ width: 80%;}
+
+section.header div.head nav ul{display: flex; float: right}
+
+section.header div.head nav ul li{margin-right: 50px;}
+
+section.header div.head nav ul li a{ text-decoration: none; color: #fff;font-family: Tahoma; font-size: 17px;}
+
+section.header div.head nav ul li a:hover,section.header div.head nav ul li a:focus{border-bottom: 2px solid #fff;color: #de9f7f;}
+
+/********************************************************* again *************************/
+
+.clAss{ background: #000;color: #000; width: 100%;position: fixed}
+
+section.header div.head2
+{
+    margin-top: -75px;
+    padding-top: 30px;
+    display: flex;
+    display: none;
+    width: 98%;
+    height: 90px;
+    z-index: 99999;
+    opacity: 0.7   
+}
+
+section.header div.head2 div.logo{width:15%;float: left;margin-left: 90px;}
+
+section.header div.head2 div.logo:hover
+{
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);   
+}
+
+section.header div.head2 nav{margin-left: 180px;width: 80%;}
+
+section.header div.head2 nav ul{display: flex;float: right}
+
+section.header div.head2 nav ul li{margin-right: 50px;  }
+
+section.header div.head2 nav ul li a{text-decoration: none;color: #fff;font-family: Tahoma;font-size: 17px;}
+
+section.header div.head2 nav ul li a:hover,section.header div.head2 nav ul li a:focus{border-bottom: 2px solid #fff;color: #de9f7f}
+
+/*****************************/
+
+section.header div.CenterOfHead{width: 400px;margin: 120px auto; }
+
+section.header div.CenterOfHead h2
+{
+    font-size: 8em;
+    text-align: center;
+    letter-spacing: -0.01em; 
+    font-weight: bold;
+    color: #c66536;
+    font-family: Kunstler Script;
+}
+
+section.header div.CenterOfHead h2 span{font-size: 1.1em;position: relative;top: 10px;}
+
+section.header div.CenterOfHead h3
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:-42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #fff
+}
+
+section.header div.CenterOfHead div.Roto4{position: relative; bottom: 30px;opacity: 1}
+
+section.header div.CenterOfHead i:nth-of-type(1){color: #fff; margin-left: 70px;  float: left; position: relative; bottom: 1px;}
+
+section.header div.CenterOfHead i:nth-of-type(2){ color: #fff;    }
+
+section.header div.CenterOfHead hr:nth-of-type(1){width:100px; position: relative; bottom: 15px;float: left; margin-right: 50px;}
+
+section.header div.CenterOfHead span.ngma{color: #fff;float: left;font-size: 20px; position: relative; bottom: 5px; right: 23px; color:#c66536 }
+
+section.header div.CenterOfHead hr:nth-of-type(2){ width:100px; position: relative; bottom: 15px;float: left;}
+
+section.header div.CenterOfHead h4{color: #fff; text-align: center; letter-spacing: 5px; position: relative; bottom:50px;}
+
+section.header div.CenterOfHead button
+{
+    background: #fff; 
+    border: none; 
+    outline: 0; 
+    text-align: center;
+    position: relative;
+    color: #000;
+    left: 140px; 
+    bottom: 40px; 
+    border-radius: 2px; 
+    padding: 8px; 
+    width: 120px; 
+}
+
+section.header  div.arrow
+{
+    text-align: center;
+    margin-left: 48%;
+    display: inline-block;
+    background: #fff;
+    height: 29px;
+    position: relative;
+    bottom: -12px;
+    color: #000;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    width: 70px;
+    cursor: pointer;
+        
+}
+section.header  div.arrow a{color: #000}
+
+
+/************************************* About *************************************/
+
+section.about{background: #fff;height: 400px; margin-bottom: 70px;}
+
+section.about div.About-left{width: 45%; height: 370px;float: left;}
+
+section.about div.About-left h2
+{
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.01em; 
+    font-weight: bold;
+    color: #c66536;
+    font-family: Kunstler Script;
+    font-size: 8em;
+}
+
+section.about div.About-left h2 span{font-size: 1.1em;position: relative;top: 10px;}
+
+section.about div.About-left h3
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:-35px;
+    left: 20px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    font-size: 50px;
+    color: #000
+}
+
+section.about div.About-left span.negma
+{
+    font-weight: bold;
+    display: block;
+    font-size: 100px; 
+    height: 40px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color: gray;
+}
+
+section.about div.About-left p{text-align: center;color: #333;font-family: Arial,Tahoma;line-height: 1.5;font-size: 15px;}
+
+section.about div.About-left a{text-decoration: none;font-size: 20px;margin-left: 42%;color: #c66536;border-bottom: 2px solid #c66536;}
+
+section.about div.About-left a:hover ,section.about div.About-left a:focus{color: #333;border-bottom: 2px solid #333;}
+
+section.about div.About-right{width: 55%; height: 350px;float: right;margin-top: 15px;}
+
+section.about div.About-right > img{width:250px;float: left;margin-left: 50px;border-bottom: 2px solid #c66536;}
+
+section.about div.About-right img:hover
+{
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);   
+}
+
+/************************************** Menu *********************************/
+
+section.menu
+{
+    width: 100%;
+    height: 400px;
+    background: url(../images/three-col-1.jpg) center center fixed ; 
+    background-size: cover
+}
+
+section.menu div.cneter{margin: 50px auto;height: 300px;width: 40%; }
+
+section.menu div.cneter h2
+{ 
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.01em; 
+    font-weight: bold;
+    color: #c66536;
+    font-family: Kunstler Script;
+    font-size: 8em;
+    position: relative;
+    top:50px;
+}
+
+section.menu div.cneter h2 span{font-size: 1.1em;position: relative;top: 10px;}
+
+section.menu div.cneter h3
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative; 
+    left: 20px;
+    top:15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 50px;
+    color: #fff
+}
+
+/************************************* blog *************************************/
+
+
+section.blog{width:100%;height:500px; margin-top: 60px;}
+
+section.blog .blog-left{width:55%;float: left; height: 350px;margin-top: 35px;}
+
+section.blog .blog-left img{float: left;margin: 10px;width: 290px;height: 200px;border-bottom: 2px solid #c66536; }
+
+section.blog .blog-left img:hover{ border-bottom:2px solid #333;}
+
+section.blog .blog-right{width: 45%; height: 350px;float: right;margin-top: 15px;}
+
+section.blog .blog-right h2
+{
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.01em; 
+    font-weight: bold;
+    color: #c66536;
+    font-family: Kunstler Script;
+    font-size: 8em;
+}
+
+section.blog .blog-right h2 span{font-size: 1.1em;position: relative;top: 10px;}
+
+section.blog .blog-right h3
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:-35px;
+    left: 20px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    font-size: 50px;
+    color: #000
+}
+
+section.blog .blog-right span.negma
+{
+    font-weight: bold;
+    display: block;
+    font-size: 100px; 
+    height: 40px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color: gray;
+}
+
+section.blog .blog-right p{text-align: center;color: #333;font-family: Arial,Tahoma;line-height: 1.5;font-size: 15px;}
+
+section.blog .blog-right a
+{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30%;
+    color: #c66536;
+    border-bottom: 2px solid #c66536;
+}
+
+section.blog .blog-right a:hover ,section.blog .blog-right a:focus{color: #333;border-bottom: 2px solid #333; }
+
+
+
+/************************************* shop *************************************/
+
+section.shop
+{
+    width:100%;
+    height: 400px;
+    background: url(../images/frontpage-menu.jpg) center center fixed ;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+section.shop div.has_head{margin: 50px auto;height: 300px;width: 40%; }
+
+section.shop div.has_head h2
+{
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.01em; 
+    font-weight: bold;
+    color: #c66536;
+    position: relative;
+    top:40px;
+    font-family: Kunstler Script;
+    font-size: 8em;
+}
+
+section.shop div.has_head h2 span{font-size: 1.1em;position: relative;top: 10px;}
+
+section.shop div.has_head h3
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:10px;
+    left: 20px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    font-size: 50px;
+    color: #fff
+}
+
+
+
+
+
+/************************************* shop2 *************************************/
+
+section.shop2{background: #fff;height: 400px; margin-bottom: 50px; margin-top: 50px;}
+
+section.shop2 div.About-left{width: 45%; height: 370px;float: left;}
+
+section.shop2 div.About-left h2
+{
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.01em; 
+    font-weight: bold;
+    color: #c66536;
+    font-family: Kunstler Script;
+    font-size: 8em;
+}
+
+section.shop2 div.About-left h2 span{font-size: 1.1em;position: relative;top: 10px;}
+
+section.shop2 div.About-left h3
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:-35px;
+    left: 20px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    font-size: 50px;
+    color: #000
+}
+
+section.shop2 div.About-left span.negma
+{
+    font-weight: bold;
+    display: block;
+    font-size: 100px; 
+    height: 40px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color: gray;
+}
+
+
+section.shop2 div.About-left p{text-align: center;color: #333;font-family: Arial,Tahoma;line-height: 1.5;font-size: 15px;}
+
+section.shop2 div.About-left a{text-decoration: none;font-size: 20px;margin-left: 28%;color: #c66536;border-bottom: 2px solid #c66536;}
+
+section.shop2 div.About-left a:hover ,section.shop2 div.About-left a:focus{color: #333; border-bottom: 2px solid #333;}
+
+section.shop2 div.About-right
+{width: 55%; height: 350px;float: right; margin-top: 15px;}
+
+section.shop2 div.About-right > img{width:250px;float: left; margin-left: 50px;}
+
+section.shop2 div.About-right > img:hover
+{
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/******************************************************* footer ****************************************/
+
+
+footer{width:100%;height: 700px; background: #121212;}
+
+footer h3{color: #fff;margin-top: 65px;}
+
+footer span.negma
+{
+    font-weight: bold;
+    display: block;
+    font-size: 60px; 
+    height: 40px;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    color: #c59d5f;
+}
+
+footer p{position: relative;width:50%;left: 290px;line-height: 1.8;font-family: Tahoma;color: #fff;font-size: 15px;}
+
+footer .social_input{width:50%;position: relative; left: 290px;}
+
+footer .social_input .left{float: left;}
+
+footer .social_input .left h3 ,footer .social_input .right h3{ margin-bottom: 15px;}
+
+footer .social_input .left i{color: #fff;padding-left: 10px;}
+
+footer .social_input .right{float: right;}
+
+footer .social_input .right input
+{
+    outline: 0;
+    background: #eeeeee;
+    height: 40px;
+    width: 200px;
+    border: 0;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+footer  .arrow_top
+{
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    top:140px;
+    height: 40px;
+    width:50px;
+    padding-top: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: #333
+}
+
+footer  .arrow_top a{color: #fff;}
+
+footer .foot2{width:100%;position: relative;top:125px;height: 200px;background: #333;}
+
+footer .foot2 p:first-child{margin-top: 50px;color: #919191;width: 80%;position: relative; left: 250px;}
+
+footer .foot2 p:last-child{text-align: center;color: #919191;}
+
+footer .foot2 p span{color: #c59d5f;}
+
+
+
+
+
+
+/************************ Groping ****************************/
+section.blog .blog-left img,
+section.blog .blog-right a,
+section.about div.About-left a,
+section.shop2 div.About-left a,
+section.header div.head div.logo,
+section.header div.head2 div.logo,
+section.about div.About-right > img,
+section.header div.head nav ul li a,
+section.header div.head2 nav ul li a,
+section.shop2 div.About-right > img
+{
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out; 
+}
+
+
+
+
+
+
+
+
+
